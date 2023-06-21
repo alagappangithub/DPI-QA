@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partnership_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Partnership Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Employer for Immersion individual hires</fullName>
+                <default>false</default>
+                <label>Employer for Immersion individual hires</label>
+            </value>
+            <value>
+                <fullName>Employer for Immersion project team</fullName>
+                <default>false</default>
+                <label>Employer for Immersion project team</label>
+            </value>
+            <value>
+                <fullName>Employer for Workforce individual hires</fullName>
+                <default>false</default>
+                <label>Employer for Workforce individual hires</label>
+            </value>
+            <value>
+                <fullName>Employer for Workforce project team</fullName>
+                <default>false</default>
+                <label>Employer for Workforce project team</label>
+            </value>
+            <value>
+                <fullName>Workforce student pipeline</fullName>
+                <default>false</default>
+                <label>Workforce student pipeline</label>
+            </value>
+            <value>
+                <fullName>Immersion student pipeline</fullName>
+                <default>false</default>
+                <label>Immersion student pipeline</label>
+            </value>
+            <value>
+                <fullName>Community Ed recruitment pipeline</fullName>
+                <default>false</default>
+                <label>Community Ed recruitment pipeline</label>
+            </value>
+            <value>
+                <fullName>Partner in securing employers</fullName>
+                <default>false</default>
+                <label>Partner in securing employers</label>
+            </value>
+            <value>
+                <fullName>Grant funding</fullName>
+                <default>false</default>
+                <label>Grant funding</label>
+            </value>
+            <value>
+                <fullName>Speaker engagement</fullName>
+                <default>false</default>
+                <label>Speaker engagement</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Program Logistics</fullName>
+                <default>false</default>
+                <label>Program Logistics</label>
+            </value>
+            <value>
+                <fullName>Mentor pipeline</fullName>
+                <default>false</default>
+                <label>Mentor pipeline</label>
+            </value>
+            <value>
+                <fullName>Near-peer mentor pipeline</fullName>
+                <default>false</default>
+                <label>Near-peer mentor pipeline</label>
+            </value>
+            <value>
+                <fullName>DPI students attend(ed) this school</fullName>
+                <default>false</default>
+                <label>DPI students attend(ed) this school</label>
+            </value>
+            <value>
+                <fullName>TBD – other from other departments</fullName>
+                <default>false</default>
+                <label>TBD – other from other departments</label>
+            </value>
+            <value>
+                <fullName>Revenue / Development</fullName>
+                <default>false</default>
+                <label>Revenue / Development</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

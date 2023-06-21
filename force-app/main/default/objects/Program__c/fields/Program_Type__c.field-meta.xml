@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Program Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Program_Department__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Program_Type</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Community Ed</controllingFieldValue>
+            <valueName>Immersion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Ed</controllingFieldValue>
+            <valueName>Workforce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Community Ed</controllingFieldValue>
+            <controllingFieldValue>Pritzker Tech Talent Labs</controllingFieldValue>
+            <valueName>Other (fill-in)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pritzker Tech Talent Labs</controllingFieldValue>
+            <valueName>Digital Bridge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pritzker Tech Talent Labs</controllingFieldValue>
+            <valueName>Digital Explorers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pritzker Tech Talent Labs</controllingFieldValue>
+            <valueName>Digital Scholars</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pritzker Tech Talent Labs</controllingFieldValue>
+            <valueName>Discover Computing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pritzker Tech Talent Labs</controllingFieldValue>
+            <valueName>Teacher Training</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

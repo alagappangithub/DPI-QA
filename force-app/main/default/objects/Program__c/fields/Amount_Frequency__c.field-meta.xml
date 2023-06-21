@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_Frequency__c</fullName>
+    <externalId>false</externalId>
+    <label>Amount Frequency</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>per Day</fullName>
+                <default>false</default>
+                <label>per Day</label>
+            </value>
+            <value>
+                <fullName>per Week</fullName>
+                <default>false</default>
+                <label>per Week</label>
+            </value>
+            <value>
+                <fullName>per Month</fullName>
+                <default>false</default>
+                <label>per Month</label>
+            </value>
+            <value>
+                <fullName>per Year</fullName>
+                <default>false</default>
+                <label>per Year</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_locations__c</fullName>
+    <externalId>false</externalId>
+    <label>Role locations</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Virtual</fullName>
+                <default>false</default>
+                <label>Virtual</label>
+            </value>
+            <value>
+                <fullName>Hybrid, must live locally</fullName>
+                <default>false</default>
+                <label>Hybrid, must live locally</label>
+            </value>
+            <value>
+                <fullName>Hybrid, can live anywhere</fullName>
+                <default>false</default>
+                <label>Hybrid, can live anywhere</label>
+            </value>
+            <value>
+                <fullName>On-site</fullName>
+                <default>false</default>
+                <label>On-site</label>
+            </value>
+            <value>
+                <fullName>IL</fullName>
+                <default>false</default>
+                <label>IL</label>
+            </value>
+            <value>
+                <fullName>Other state (fill-in)</fullName>
+                <default>false</default>
+                <label>Other state (fill-in)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

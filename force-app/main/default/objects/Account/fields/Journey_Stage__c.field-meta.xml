@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Journey_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Journey Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospecting</fullName>
+                <default>false</default>
+                <label>Prospecting</label>
+            </value>
+            <value>
+                <fullName>Intros and Warm-Up</fullName>
+                <default>false</default>
+                <label>Intros and Warm-Up</label>
+            </value>
+            <value>
+                <fullName>Harbor Cruise</fullName>
+                <default>false</default>
+                <label>Harbor Cruise</label>
+            </value>
+            <value>
+                <fullName>Sent Marketing Materials</fullName>
+                <default>false</default>
+                <label>Sent Marketing Materials</label>
+            </value>
+            <value>
+                <fullName>Internal Company Champion Identified</fullName>
+                <default>false</default>
+                <label>Internal Company Champion Identified</label>
+            </value>
+            <value>
+                <fullName>Guest Speak</fullName>
+                <default>false</default>
+                <label>Guest Speak</label>
+            </value>
+            <value>
+                <fullName>Consensus Reached</fullName>
+                <default>false</default>
+                <label>Consensus Reached</label>
+            </value>
+            <value>
+                <fullName>Signed Agreement</fullName>
+                <default>false</default>
+                <label>Signed Agreement</label>
+            </value>
+            <value>
+                <fullName>Re-try Later</fullName>
+                <default>false</default>
+                <label>Re-try Later</label>
+            </value>
+            <value>
+                <fullName>Prospecting Ended</fullName>
+                <default>false</default>
+                <label>Prospecting Ended</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

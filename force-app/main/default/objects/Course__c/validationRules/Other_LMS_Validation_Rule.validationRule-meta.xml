@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_LMS_Validation_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL( LMS__c , &apos;Other&apos;) &amp;&amp; ISBLANK( LMS_Other__c)</errorConditionFormula>
+    <errorDisplayField>LMS_Other__c</errorDisplayField>
+    <errorMessage>Please specify a value for &apos;Other LMS&apos;</errorMessage>
+</ValidationRule>

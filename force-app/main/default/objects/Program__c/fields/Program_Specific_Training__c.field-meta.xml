@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Program_Specific_Training__c</fullName>
+    <externalId>false</externalId>
+    <label>Program Specific Training</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Program_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mobile App Dev &amp; Design</fullName>
+                <default>false</default>
+                <label>Mobile App Dev &amp; Design</label>
+            </value>
+            <value>
+                <fullName>CS 100</fullName>
+                <default>false</default>
+                <label>CS 100</label>
+            </value>
+            <value>
+                <fullName>CS 111</fullName>
+                <default>false</default>
+                <label>CS 111</label>
+            </value>
+            <value>
+                <fullName>Data Science Discovery</fullName>
+                <default>false</default>
+                <label>Data Science Discovery</label>
+            </value>
+            <value>
+                <fullName>Exploring Electrical &amp; Computer Engineering</fullName>
+                <default>false</default>
+                <label>Exploring Electrical &amp; Computer Engineering</label>
+            </value>
+            <value>
+                <fullName>Foundations of Computer Science &amp; Coding</fullName>
+                <default>false</default>
+                <label>Foundations of Computer Science &amp; Coding</label>
+            </value>
+            <value>
+                <fullName>Discover Computing I</fullName>
+                <default>false</default>
+                <label>Discover Computing I</label>
+            </value>
+            <value>
+                <fullName>Discover Computing II</fullName>
+                <default>false</default>
+                <label>Discover Computing II</label>
+            </value>
+            <value>
+                <fullName>Discover Computing I + II</fullName>
+                <default>false</default>
+                <label>Discover Computing I + II</label>
+            </value>
+            <value>
+                <fullName>UIUC CS Endorsement</fullName>
+                <default>false</default>
+                <label>UIUC CS Endorsement</label>
+            </value>
+            <value>
+                <fullName>Swift PD Course</fullName>
+                <default>false</default>
+                <label>Swift PD Course</label>
+            </value>
+            <value>
+                <fullName>CS Teacher Toolkit</fullName>
+                <default>false</default>
+                <label>CS Teacher Toolkit</label>
+            </value>
+            <value>
+                <fullName>Other Professional Development (fill-in)</fullName>
+                <default>false</default>
+                <label>Other Professional Development (fill-in)</label>
+            </value>
+            <value>
+                <fullName>Project Internship (general)</fullName>
+                <default>false</default>
+                <label>Project Internship (general)</label>
+            </value>
+            <value>
+                <fullName>Data Anayltics</fullName>
+                <default>false</default>
+                <label>Data Anayltics</label>
+            </value>
+            <value>
+                <fullName>Web + App Dev</fullName>
+                <default>false</default>
+                <label>Web + App Dev</label>
+            </value>
+            <value>
+                <fullName>Software Test Automation</fullName>
+                <default>false</default>
+                <label>Software Test Automation</label>
+            </value>
+            <value>
+                <fullName>Research Scholars</fullName>
+                <default>false</default>
+                <label>Research Scholars</label>
+            </value>
+            <value>
+                <fullName>DPI Full Stack Software Dev Pre-Apprenticeship</fullName>
+                <default>false</default>
+                <label>DPI Full Stack Software Dev Pre-Apprenticeship</label>
+            </value>
+            <value>
+                <fullName>DPI Full Stack Software Dev Apprenticeship, Class Training</fullName>
+                <default>false</default>
+                <label>DPI Full Stack Software Dev Apprenticeship, Class Training</label>
+            </value>
+            <value>
+                <fullName>DPI Full Stack Software Dev Apprenticeship, On-The-Job</fullName>
+                <default>false</default>
+                <label>DPI Full Stack Software Dev Apprenticeship, On-The-Job</label>
+            </value>
+            <value>
+                <fullName>Cognizant Full Stack Software Dev Pre-Apprenticeship</fullName>
+                <default>false</default>
+                <label>Cognizant Full Stack Software Dev Pre-Apprenticeship</label>
+            </value>
+            <value>
+                <fullName>Cognizant Full Stack Software Dev Apprenticeship, Class Training</fullName>
+                <default>false</default>
+                <label>Cognizant Full Stack Software Dev Apprenticeship, Class Training</label>
+            </value>
+            <value>
+                <fullName>Cognizant Full Stack Software Dev Apprenticeship, On-The-Job</fullName>
+                <default>false</default>
+                <label>Cognizant Full Stack Software Dev Apprenticeship, On-The-Job</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Digital Scholars</controllingFieldValue>
+            <valueName>Mobile App Dev &amp; Design</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Scholars</controllingFieldValue>
+            <valueName>CS 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Scholars</controllingFieldValue>
+            <valueName>CS 111</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Scholars</controllingFieldValue>
+            <valueName>Data Science Discovery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Scholars</controllingFieldValue>
+            <valueName>Exploring Electrical &amp; Computer Engineering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Digital Scholars</controllingFieldValue>
+            <valueName>Foundations of Computer Science &amp; Coding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discover Computing</controllingFieldValue>
+            <valueName>Discover Computing I</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discover Computing</controllingFieldValue>
+            <valueName>Discover Computing II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Discover Computing</controllingFieldValue>
+            <valueName>Discover Computing I + II</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immersion</controllingFieldValue>
+            <valueName>Project Internship (general)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immersion</controllingFieldValue>
+            <valueName>Data Anayltics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immersion</controllingFieldValue>
+            <valueName>Web + App Dev</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immersion</controllingFieldValue>
+            <valueName>Software Test Automation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Immersion</controllingFieldValue>
+            <valueName>Research Scholars</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teacher Training</controllingFieldValue>
+            <valueName>UIUC CS Endorsement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teacher Training</controllingFieldValue>
+            <valueName>Swift PD Course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teacher Training</controllingFieldValue>
+            <valueName>CS Teacher Toolkit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Teacher Training</controllingFieldValue>
+            <valueName>Other Professional Development (fill-in)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workforce</controllingFieldValue>
+            <valueName>DPI Full Stack Software Dev Pre-Apprenticeship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workforce</controllingFieldValue>
+            <valueName>DPI Full Stack Software Dev Apprenticeship, Class Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workforce</controllingFieldValue>
+            <valueName>DPI Full Stack Software Dev Apprenticeship, On-The-Job</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workforce</controllingFieldValue>
+            <valueName>Cognizant Full Stack Software Dev Pre-Apprenticeship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workforce</controllingFieldValue>
+            <valueName>Cognizant Full Stack Software Dev Apprenticeship, Class Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Workforce</controllingFieldValue>
+            <valueName>Cognizant Full Stack Software Dev Apprenticeship, On-The-Job</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
