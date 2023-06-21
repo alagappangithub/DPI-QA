@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Digital Bridge</fullName>
+        <default>false</default>
+        <label>Digital Bridge</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Explorers</fullName>
+        <default>false</default>
+        <label>Digital Explorers</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Scholars</fullName>
+        <default>false</default>
+        <label>Digital Scholars</label>
+    </customValue>
+    <customValue>
+        <fullName>Discover Computing</fullName>
+        <default>false</default>
+        <label>Discover Computing</label>
+    </customValue>
+    <customValue>
+        <fullName>Immersion</fullName>
+        <default>false</default>
+        <label>Immersion</label>
+    </customValue>
+    <customValue>
+        <fullName>Teacher Training</fullName>
+        <default>false</default>
+        <label>Teacher Training</label>
+    </customValue>
+    <customValue>
+        <fullName>Workforce</fullName>
+        <default>false</default>
+        <label>Workforce</label>
+    </customValue>
+    <customValue>
+        <fullName>Other (fill-in)</fullName>
+        <default>false</default>
+        <label>Other (fill-in)</label>
+    </customValue>
+    <masterLabel>Program Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
